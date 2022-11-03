@@ -12,7 +12,10 @@
 		32E6D63128FE984900F7D66D /* TripsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D63028FE984900F7D66D /* TripsterTests.swift */; };
 		32E6D63B28FE984900F7D66D /* TripsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D63A28FE984900F7D66D /* TripsterUITests.swift */; };
 		32E6D63D28FE984900F7D66D /* TripsterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D63C28FE984900F7D66D /* TripsterUITestsLaunchTests.swift */; };
-		32E6D69629094A4B00F7D66D /* Asset.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E6D69529094A4B00F7D66D /* Asset.xcassets */; };
+		32E6D69629094A4B00F7D66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E6D69529094A4B00F7D66D /* Assets.xcassets */; };
+		32E6D709290A5FB500F7D66D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E6D708290A5FB500F7D66D /* Preview Assets.xcassets */; };
+		32E6D70C290BADFC00F7D66D /* detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D70B290BADFC00F7D66D /* detail.swift */; };
+		32E6D70E2911281200F7D66D /* bromoinfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D70D2911281200F7D66D /* bromoinfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +45,10 @@
 		32E6D63628FE984900F7D66D /* TripsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E6D63A28FE984900F7D66D /* TripsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsterUITests.swift; sourceTree = "<group>"; };
 		32E6D63C28FE984900F7D66D /* TripsterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsterUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		32E6D69529094A4B00F7D66D /* Asset.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Asset.xcassets; sourceTree = "<group>"; };
+		32E6D69529094A4B00F7D66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32E6D708290A5FB500F7D66D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		32E6D70B290BADFC00F7D66D /* detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detail.swift; sourceTree = "<group>"; };
+		32E6D70D2911281200F7D66D /* bromoinfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bromoinfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				32E6D61D28FE984700F7D66D /* Tripster */,
+				32E6D70F2911284500F7D66D /* informasi */,
 				32E6D62F28FE984900F7D66D /* TripsterTests */,
 				32E6D63928FE984900F7D66D /* TripsterUITests */,
 				32E6D61C28FE984700F7D66D /* Products */,
@@ -93,9 +100,11 @@
 		32E6D61D28FE984700F7D66D /* Tripster */ = {
 			isa = PBXGroup;
 			children = (
+				32E6D70A290A5FBE00F7D66D /* Preview Content */,
 				32E6D61E28FE984700F7D66D /* TripsterApp.swift */,
 				32E6D62028FE984700F7D66D /* ContentView.swift */,
-				32E6D69529094A4B00F7D66D /* Asset.xcassets */,
+				32E6D69529094A4B00F7D66D /* Assets.xcassets */,
+				32E6D70B290BADFC00F7D66D /* detail.swift */,
 				32E6D62428FE984800F7D66D /* Tripster.entitlements */,
 			);
 			path = Tripster;
@@ -116,6 +125,22 @@
 				32E6D63C28FE984900F7D66D /* TripsterUITestsLaunchTests.swift */,
 			);
 			path = TripsterUITests;
+			sourceTree = "<group>";
+		};
+		32E6D70A290A5FBE00F7D66D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				32E6D708290A5FB500F7D66D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		32E6D70F2911284500F7D66D /* informasi */ = {
+			isa = PBXGroup;
+			children = (
+				32E6D70D2911281200F7D66D /* bromoinfo.swift */,
+			);
+			path = informasi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,7 +247,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E6D69629094A4B00F7D66D /* Asset.xcassets in Resources */,
+				32E6D709290A5FB500F7D66D /* Preview Assets.xcassets in Resources */,
+				32E6D69629094A4B00F7D66D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32E6D70C290BADFC00F7D66D /* detail.swift in Sources */,
+				32E6D70E2911281200F7D66D /* bromoinfo.swift in Sources */,
 				32E6D62128FE984700F7D66D /* ContentView.swift in Sources */,
 				32E6D61F28FE984700F7D66D /* TripsterApp.swift in Sources */,
 			);
