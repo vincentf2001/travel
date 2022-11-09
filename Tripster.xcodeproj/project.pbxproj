@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32179D10291A39BB004BC572 /* informasi1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32179D0F291A39BB004BC572 /* informasi1.swift */; };
 		32E6D61F28FE984700F7D66D /* TripsterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D61E28FE984700F7D66D /* TripsterApp.swift */; };
 		32E6D62128FE984700F7D66D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D62028FE984700F7D66D /* ContentView.swift */; };
 		32E6D63128FE984900F7D66D /* TripsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E6D63028FE984900F7D66D /* TripsterTests.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32179D0F291A39BB004BC572 /* informasi1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = informasi1.swift; sourceTree = "<group>"; };
 		32E6D61B28FE984700F7D66D /* Tripster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tripster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32E6D61E28FE984700F7D66D /* TripsterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsterApp.swift; sourceTree = "<group>"; };
 		32E6D62028FE984700F7D66D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				32E6D62028FE984700F7D66D /* ContentView.swift */,
 				32E6D69529094A4B00F7D66D /* Assets.xcassets */,
 				32E6D70B290BADFC00F7D66D /* detail.swift */,
+				32179D0F291A39BB004BC572 /* informasi1.swift */,
 				32E6D62428FE984800F7D66D /* Tripster.entitlements */,
 			);
 			path = Tripster;
@@ -275,6 +278,7 @@
 			files = (
 				32E6D70C290BADFC00F7D66D /* detail.swift in Sources */,
 				32E6D70E2911281200F7D66D /* bromoinfo.swift in Sources */,
+				32179D10291A39BB004BC572 /* informasi1.swift in Sources */,
 				32E6D62128FE984700F7D66D /* ContentView.swift in Sources */,
 				32E6D61F28FE984700F7D66D /* TripsterApp.swift in Sources */,
 			);

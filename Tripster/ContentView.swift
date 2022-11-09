@@ -59,7 +59,7 @@ struct ContentView: View {
                             
                             ScrollView(.horizontal){
                                 HStack{
-                                    NavigationLink(destination: detail()) {
+                                    NavigationLink(destination: informasi1()) {
                                     VStack{
                                         Image("Bromo1")
                                             .resizable()
